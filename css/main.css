@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(54, 54, 54);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 15px;
+}
+
+.bigger-boss {
+    margin-top: 50px;
+    margin-left: 390px;
+    border: 1px solid rgb(255, 241, 43);
+    width: 430px;
+    height: 528px;
+    background-color: rgb(255, 241, 43);
+}
+
+.box {
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 110px;
+    margin-top: 22px;
+    width: 377px;
+    height: 357px;
+    background-color: #fff;
+}
+
+.big-boss h2 {
+    font-size: 22px;
+    margin-left: 40px;
+    margin-top: 39px;
+}
+
+.big-boss {
+    display: flex;
+}
+
+.big-boss span {
+    color: #000;
+    opacity: 0.6;
+    margin-left: 142px;
+    margin-top: 42px;
+}
+
+.big-boss span:hover{
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
+.box img {
+    width: 52px;
+    height: 52px;
+    border-radius: 30px;
+    margin-top: -22px;
+    margin-left: 31px;
+}
+
+
+.field {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.field input {
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.first-inp {
+    width: 317px;
+}
+
+.df-field {
+    display: flex;
+}
+
+.sec-inp {
+    width: 135px;
+}
+
+.third-inp {
+    width: 132px;
+    margin-left: 20px;
+}
+
+.third-lab {
+    margin-left: 23px;
+}
+
+.third-field {
+    margin-left: 10px;
+}
+
+.text {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.hash1 {
+    position: absolute;
+    margin-top: 485px;
+    margin-left: 231px;
+    font-size: 19px;
+    color: rgb(32, 32, 32);
+    opacity: 0.7;
+}
+
+.hash1:hover {
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
+.hash2 {
+    position: absolute;
+    margin-top: 485px;
+    margin-left: 334px;
+    font-size: 19px;
+    color: rgb(32, 32, 32);
+    opacity: 0.7;
+}
+
+.hash2:hover {
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
+
+.field-1 {
+    margin-top: 10px;
+}
